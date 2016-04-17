@@ -1,7 +1,7 @@
 {
     "name": "the-support-group/validator-interop",
     "type": "library",
-    "description": "Open source PHP validation provider",
+    "description": "PHP validation interface provider",
     "authors": [
         {
             "name": "Abdul Wahab Qureshi",
