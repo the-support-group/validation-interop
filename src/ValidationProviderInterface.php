@@ -7,5 +7,9 @@ namespace TheSupportGroup\Common\ValidationInterop;
  */
 interface ValidationProviderInterface
 {
-    public function rule();
+    /**
+     * @param string $ruleName The rule name.
+     * @param array $arguments The arguments for the rule.
+     */
+    public function rule($ruleName, array $arguments = []);
 }
