@@ -14,8 +14,7 @@ interface ValidationProviderInterface
     public function rule($ruleName, array $arguments = []);
 
     /**
-     * @param Rule $rule
      * @param mixed $value
      */
-    public function validate($rule, $value);
+    public function validate($value);
 }
