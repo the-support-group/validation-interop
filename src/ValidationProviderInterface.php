@@ -17,4 +17,13 @@ interface ValidationProviderInterface
      * @param mixed $value
      */
     public function validate($value);
+
+    /**
+     * Get mapped method.
+     *
+     * @param string $method The validation method to map.
+     *
+     * @return string
+     */
+    public function getMappedMethod($method);
 }
